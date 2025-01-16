@@ -55,4 +55,6 @@
      Enabling this configuration will restore legacy behavior but may result in incorrect behavior.
      -->
     <bool name="config_wifiAllowMultipleNetworksOnSameAwareNdi">true</bool>
+    <!-- Try cached Wi-Fi channels first; retain the full-scan fallback. -->
+    <bool name="config_wifiEnablePartialInitialScan">true</bool>
 </resources>
