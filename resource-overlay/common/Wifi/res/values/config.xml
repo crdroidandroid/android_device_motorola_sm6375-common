@@ -57,4 +57,6 @@
     <bool name="config_wifiAllowMultipleNetworksOnSameAwareNdi">true</bool>
     <!-- Try cached Wi-Fi channels first; retain the full-scan fallback. -->
     <bool name="config_wifiEnablePartialInitialScan">true</bool>
+    <!-- Look for saved Wi-Fi networks when cellular data becomes unavailable. -->
+    <bool name="config_wifiScanOnCellularDataLossEnabled">true</bool>
 </resources>
