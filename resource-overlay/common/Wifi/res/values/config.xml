@@ -59,4 +59,6 @@
     <bool name="config_wifiEnablePartialInitialScan">true</bool>
     <!-- Look for saved Wi-Fi networks when cellular data becomes unavailable. -->
     <bool name="config_wifiScanOnCellularDataLossEnabled">true</bool>
+    <!-- Ask before legacy third-party apps enable Wi-Fi. -->
+    <bool name="config_showConfirmationDialogForThirdPartyAppsEnablingWifi">true</bool>
 </resources>
