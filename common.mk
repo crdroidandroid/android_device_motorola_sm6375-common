@@ -285,8 +285,7 @@ PRODUCT_PACKAGES += \
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH) \
-    hardware/motorola \
-    hardware/samsung
+    hardware/motorola
 
 # Telephony
 PRODUCT_PACKAGES += \
