@@ -52,7 +52,7 @@
         <library name="vqe" path="libswvqe.so"/>
         <!--DOLBY END-->
         <!--Spatial Audio-->
-        <library name="spatializer" path="libspatialaudio.so"/>
+        <library name="spatializer" path="libswspatializer.so"/>
 	<!--Spatial Audio-->
 	<!--Viper4Android FX-->
         <library name="v4a_re" path="libv4a_re.so"/>
@@ -120,7 +120,7 @@
         <effect name="vqe" library="vqe" uuid="64a0f614-7fa4-48b8-b081-d59dc954616f"/>
         <!--DOLBY END-->
         <!--Spatial Audio-->
-        <effect name="spatializer" library="spatializer" uuid="cc4677de-ff72-11eb-9a03-0242ac130003"/>
+        <effect name="spatializer" library="spatializer" uuid="ccd4cf09-a79d-46c2-9aae-06a1698d6c8f"/>
 	<!--Spatial Audio-->
 	<!--Viper4Android FX-->
         <effect name="v4a_standard_re" library="v4a_re" uuid="90380da3-8536-4744-a6a3-5731970e640f"/>
